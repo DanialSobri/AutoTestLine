@@ -10,7 +10,7 @@ logging.basicConfig(filename='artifact/pushrankokla.log', level=logging.INFO, fo
 
 class SpeedTest:
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Edge()
 
     def run_test(self):
         print("Start Push Rank")
