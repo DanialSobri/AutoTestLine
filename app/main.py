@@ -1,8 +1,16 @@
+import schedule
+import time
+import pushrank
 
+def job_pushrank():
+    speed_test_instance = pushrank.SpeedTest()
+    speed_test_instance.run_test()
+    speed_test_instance.close()
 
-def main():
-    print("python main function")
+# schedule.every(10).seconds.do(job)
+schedule.every(30).minutes.do(job_pushrank)
+# schedule.every().day.at("10:30").do(job)
 
-
-if __name__ == '__main__':
-    main()
+while 1:
+    schedule.run_pending()
+    time.sleep(1)

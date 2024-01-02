@@ -41,7 +41,8 @@ class SpeedTest:
     def close(self):
         self.driver.close()
 
-# Example usage:
-speed_test_instance = SpeedTest()
-speed_test_instance.run_test()
-speed_test_instance.close()
+if __name__ == "__main__":
+    # Example usage:
+    speed_test_instance = SpeedTest()
+    speed_test_instance.run_test()
+    speed_test_instance.close()

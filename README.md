@@ -16,12 +16,11 @@ Speedtest
 - Capture Download & Upload speed. ✔️
 
 Streaming
-- Navigate to 4k youtube video `https://www.youtube.com/watch?v=LXb3EKWsInQ`
-- Select 4k quality
-- Open stat for nerd wit righ-click on the video
-- Wait for 2 minute
-- Screenshot result.
-- Capture Download & Upload speed.
+- Navigate to 4k youtube video `https://www.youtube.com/watch?v=LXb3EKWsInQ` ✔️
+- Select 4k quality ✔️
+- Open stat for nerd with righ-click on the video ✔️
+- Wait for 2 minute ✔️
+- Screenshot result. ✔️
 
 Ping
 - Open CMD and ping any public endpoint.
